@@ -1,0 +1,65 @@
+.active {
+    background-color: #200B06; color: white;
+    }
+body {
+    background-image:url(kirayoshi.png)
+    }
+h1, h2, h3, h4, h5, h6, p {
+    color:white;
+    }
+.abouttable {
+    border: 1px solid;
+    background: rgba(46, 39, 108, 1.0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    }
+.newstable {
+border-collapse: collapse;
+border: 1px solid #C44648;
+background: rgba(52, 44, 117, 1.0);
+margin-right:auto;
+    }
+th {
+padding: 8px;
+text-align: center;
+color: white;
+font-size: 30px;
+border: 1px solid white;
+    }
+td {
+padding: 8px;
+text-align: left;
+color: white;
+font-size: 25px;
+border: 1px solid white;
+    }
+li {
+    float: left;
+    border-right: 1px solid black;
+    }
+li:last-child {
+border-right: none;
+    }
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #e8b11f;
+    }
+li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    }
+li a:hover {
+    background-color: #200B06; color: white;
+    }
+td:hover {
+    background: rgba(4, 18, 24, 0.5);
+    }
